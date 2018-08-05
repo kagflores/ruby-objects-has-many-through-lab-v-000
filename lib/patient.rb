@@ -19,7 +19,7 @@ class Patient
   def appointments
     array = Appointment.all.select do |appointment| appointment.patient == self
     end
-    binding.pry
+    #binding.pry
   end
 
   def doctors
